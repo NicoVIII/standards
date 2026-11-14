@@ -3,6 +3,7 @@
 How a kind of work is done in [NicoVIII](https://github.com/NicoVIII)'s repositories, wherever that kind of work comes up. Each file covers one condition — a kind of software, an aspect of the work — and opens by stating it. They are written for people to re-read and revise, and for coding agents to be steered by.
 
 - [`architecture.md`](architecture.md) — module structure, domain types, boundaries, error handling
+- [`code-style.md`](code-style.md) — reuse, failures, the shape of functions and files, comments
 - [`testing.md`](testing.md) — which tests exist, what they assert, where they live
 - [`repo-setup.md`](repo-setup.md) — task runner, hooks, CI, devcontainer, dependency updates, releases
 - [`documentation.md`](documentation.md) — where knowledge is written down, and what a decision record holds
