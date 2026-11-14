@@ -1,6 +1,6 @@
 # Server backend
 
-Applies when designing or reviewing a server backend: its bounded contexts, use cases, API contract, database schema, or migrations.
+Applies when designing, changing, or reviewing a server backend: its bounded contexts, use cases, API contract, database schema, or migrations.
 
 ## Shape
 
