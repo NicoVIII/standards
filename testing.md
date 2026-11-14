@@ -22,7 +22,7 @@ Applies when writing, placing, or reviewing tests, deciding whether a change nee
 
 ## Where tests live
 
-- **Owed tests are grouped by what they cover, unit tests by where their subject lives** ([decision](decisions/0001-two-axis-test-layout.md)).
+- **Owed tests are grouped by what they cover, unit tests by where their subject lives** ([decision](docs/decisions/0001-two-axis-test-layout.md)).
 - **A unit test is findable from its subject by path:** beside it where the toolchain allows, at the mirrored path otherwise.
 - **An empty directory for an owed test stays, as a marker of the debt.** A directory for unit tests is never created ahead of its first test.
 - **Selective runs go on tags, never into directory names.**

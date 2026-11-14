@@ -27,6 +27,4 @@ What a repository does differently is stated in its own `AGENTS.md`, never in a 
 
 ## Decision records
 
-A rule's record follows [`documentation.md`](documentation.md), which says when a decision gets one and what it holds. Most rules get none.
-
-Records live in `decisions/NNNN-short-title.md`, numbered in sequence.
+A rule's record follows [`documentation.md`](documentation.md), which says when a decision gets one, what it holds, and where it lives. Most rules get none.

@@ -34,12 +34,12 @@ Applies when designing or reviewing a server backend: its bounded contexts, use 
 - **A derivation that is a named domain concept with its own policy is a query on the context that owns it.** A fold over data the client already holds is client code.
 - **The wire is as typed as the contract language allows,** and both sides still parse it into domain types.
 - **A response carries no generic success or error variant.** Failure travels on the transport's error channel.
-- **While client and server ship together, the contract is unversioned** ([decision](decisions/0003-unversioned-contract-while-client-and-server-ship-together.md)). A breaking change is legal only when the contract, the generated code, and both sides' adaptations land in one change, and a snapshot check catches drift.
+- **While client and server ship together, the contract is unversioned** ([decision](docs/decisions/0003-unversioned-contract-while-client-and-server-ship-together.md)). A breaking change is legal only when the contract, the generated code, and both sides' adaptations land in one change, and a snapshot check catches drift.
 - **Compatibility discipline starts with the first release that a separately shipped client depends on,** and it starts as a decision record.
 
 ## Database
 
-- **The database is a boundary** ([decision](decisions/0004-the-database-is-a-boundary.md)). Other writers reach it, so its invariants are enforced in the schema: the strictest typing the engine offers, `NOT NULL`, a `CHECK` per value invariant, and primary keys that encode real identity.
+- **The database is a boundary** ([decision](docs/decisions/0004-the-database-is-a-boundary.md)). Other writers reach it, so its invariants are enforced in the schema: the strictest typing the engine offers, `NOT NULL`, a `CHECK` per value invariant, and primary keys that encode real identity.
 - **An index is added for a read path that exists.**
 
 ## Migrations

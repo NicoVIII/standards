@@ -20,7 +20,7 @@ Applies when deciding where a piece of knowledge gets written down, when writing
 
 ## Decision records
 
-- **Records live in `docs/decisions/NNNN-title-with-dashes.md`, in one sequence per repository** ([decision](decisions/0002-one-decision-log-per-repository.md)). A part released on its own, with its own version and changelog, keeps its own.
+- **Records live in `docs/decisions/NNNN-title-with-dashes.md`, in one sequence per repository** ([decision](docs/decisions/0002-one-decision-log-per-repository.md)). A part released on its own, with its own version and changelog, keeps its own.
 - **A record follows MADR's minimal template,** with the `status` and `date` front matter of the full one.
 - **An accepted record is never edited,** except to set the status that links the record superseding it. A changed mind gets a new record.
 - **The context is written for a reader who was not there.**
