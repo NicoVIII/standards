@@ -11,7 +11,7 @@ How a kind of work is done in [NicoVIII](https://github.com/NicoVIII)'s reposito
 
 ## Using them in a repository
 
-Nothing here loads by itself. A repository takes this one in as a git submodule at `docs/standards/`, and its `AGENTS.md` lists the standards that apply to it, each with the work it is read before. Where that folder is empty, `git submodule update --init` fills it.
+Nothing here loads by itself. A repository takes this one in as a git submodule at `docs/standards/`, and its `AGENTS.md` lists the standards that apply to it, each with the work it is read before. The list opens by saying that a task usually falls under several standards and that every one whose work it includes is read before starting: a session otherwise reads the one its task names most narrowly and stops. Where that folder is empty, `git submodule update --init` fills it.
 
 What a repository does differently is stated in its own `AGENTS.md`, never in a changed copy of a standard.
 
