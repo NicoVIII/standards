@@ -12,7 +12,7 @@ Applies when creating a repository or changing its tooling: task runner, hooks, 
 
 - **The devcontainer is the toolchain definition.** Every tool version is pinned in `devcontainer.json`, to the exact patch version, and nowhere else.
 - **CI takes its tool versions from `devcontainer.json`.** No workflow states a version of its own.
-- **By default CI runs natively,** and a further job runs `just check` inside the devcontainer whenever `.devcontainer/` changes and once a week. That job is what verifies a devcontainer update.
+- **By default CI runs natively** ([decision](docs/decisions/0005-ci-runs-natively-by-default.md)), and a further job runs `just check` inside the devcontainer whenever `.devcontainer/` changes and once a week. That job is what verifies a devcontainer update.
 - **Where a native install would be hand-rolled, all of CI runs `just check` inside the devcontainer instead.**
 - **A tool comes in as a devcontainer feature,** from the first source that has it: the official features, the tool's own maintainers, `ghcr.io/nicoviii/devcontainer-features`, devcontainers-extra, and only then an unknown third party or a manual install.
 - **`devcontainer-lock.json` is tracked,** and refreshed in the commit that changes a feature.
