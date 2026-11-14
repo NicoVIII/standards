@@ -2,14 +2,19 @@
 
 How a kind of work is done in [NicoVIII](https://github.com/NicoVIII)'s repositories, wherever that kind of work comes up. Each file covers one condition — a kind of software, an aspect of the work — and opens by stating it. They are written for people to re-read and revise, and for coding agents to be steered by.
 
+In every repository:
+
 - [`architecture.md`](architecture.md) — module structure, domain types, boundaries, error handling
 - [`code-style.md`](code-style.md) — reuse, failures, the shape of functions and files, comments
 - [`testing.md`](testing.md) — which tests exist, what they assert, where they live
 - [`commit-messages.md`](commit-messages.md) — what a commit message explains, and the prefixes it does not use
 - [`repo-setup.md`](repo-setup.md) — task runner, hooks, CI, devcontainer, dependency updates, releases
 - [`documentation.md`](documentation.md) — where knowledge is written down, and what a decision record holds
-- [`github.md`](github.md) — issues, labels, relations, milestones
-- [`server-backend.md`](server-backend.md) — a backend's contexts, use cases, contract, schema, migrations
+
+Only in a repository that fits:
+
+- [`github.md`](github.md) — hosted on GitHub: issues, labels, relations, milestones
+- [`server-backend.md`](server-backend.md) — has a server backend: its contexts, use cases, contract, schema, migrations
 
 ## Using them in a repository
 
