@@ -5,6 +5,7 @@ How a kind of work is done in [NicoVIII](https://github.com/NicoVIII)'s reposito
 - [`architecture.md`](architecture.md) — module structure, domain types, boundaries, error handling
 - [`code-style.md`](code-style.md) — reuse, failures, the shape of functions and files, comments
 - [`testing.md`](testing.md) — which tests exist, what they assert, where they live
+- [`commit-messages.md`](commit-messages.md) — what a commit message explains, and the prefixes it does not use
 - [`repo-setup.md`](repo-setup.md) — task runner, hooks, CI, devcontainer, dependency updates, releases
 - [`documentation.md`](documentation.md) — where knowledge is written down, and what a decision record holds
 - [`server-backend.md`](server-backend.md) — a backend's contexts, use cases, contract, schema, migrations
