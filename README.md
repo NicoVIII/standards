@@ -8,6 +8,7 @@ How a kind of work is done in [NicoVIII](https://github.com/NicoVIII)'s reposito
 - [`commit-messages.md`](commit-messages.md) — what a commit message explains, and the prefixes it does not use
 - [`repo-setup.md`](repo-setup.md) — task runner, hooks, CI, devcontainer, dependency updates, releases
 - [`documentation.md`](documentation.md) — where knowledge is written down, and what a decision record holds
+- [`github.md`](github.md) — issues, labels, relations, milestones
 - [`server-backend.md`](server-backend.md) — a backend's contexts, use cases, contract, schema, migrations
 
 ## Using them in a repository
