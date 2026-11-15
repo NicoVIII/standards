@@ -6,6 +6,7 @@ Applies when filing, refining, labelling, or closing an issue, grooming a backlo
 
 - **Work is tracked in issues.** An issue holds its own state: open or closed, its milestone, its relations.
 - **A trivial fix is made, not filed.** Small nits are collected in one sweep issue.
+- **An issue holds work someone can start now.** Something that waits on an event is written where it will be read when the event happens, or is dropped.
 - **What the scope document lists as a non-goal is not filed.**
 
 ## What an issue says
