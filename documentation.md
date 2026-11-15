@@ -8,7 +8,7 @@ Applies when deciding where a piece of knowledge gets written down, when writing
 - **An entry point holds what its reader needs first and links to the rest.** Every other doc is reachable from one of them, directly or through an overview page it links to.
 - **`README.md`:** what it is, and how to install, run, and operate it, for a reader who has never seen the code. Working on it is one link to `CONTRIBUTING.md`.
 - **`CONTRIBUTING.md`:** setup, the checks, and how a change lands. It is owed wherever there is a setup step or a check to run. Rationale, diagrams, and reference go to `docs/dev/`, which exists once there is something to put there.
-- **`AGENTS.md` is loaded every session, so it holds only what an agent would get wrong.** A rule earns its line if working in that directory without it would likely do damage and no check enforces it. It keeps one sentence of why and links to the rest, and its links say when to read the target. It repeats nothing from `CONTRIBUTING.md`.
+- **`AGENTS.md` is loaded every session, so it holds only what an agent would get wrong.** A rule earns its line if working in that directory without it would likely do damage and no check enforces it. The file is owed once one rule does. It keeps one sentence of why and links to the rest, and its links say when to read the target. It repeats nothing from `CONTRIBUTING.md`.
 - **A rule that a check enforces shrinks to naming the check.**
 
 ## Where knowledge lives
