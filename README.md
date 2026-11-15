@@ -24,6 +24,8 @@ What a repository does differently is stated in its own `AGENTS.md`, never in a 
 
 ## Writing a standard
 
+Checking a change, and what is known about how sessions find a standard, is in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
 - A rule states what to do. Keep a purpose clause only where the rule would be misapplied without it.
 - Rationale goes in a decision record, linked from the rule.
 - State the rule without an example unless it cannot be stated otherwise: an example gets read as the rule's scope.
