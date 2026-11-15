@@ -1,6 +1,6 @@
 # Architecture
 
-Applies when designing or reviewing module structure, domain types, boundaries, or error handling — in any language, at any project size.
+Applies when designing, changing, or reviewing module structure, domain types, boundaries, or error handling — in any language, at any project size.
 
 ## Rules
 
