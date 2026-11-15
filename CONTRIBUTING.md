@@ -6,7 +6,7 @@ What changing a standard takes beyond writing it. How a rule is written is in [R
 
 A change to a standard, to an index line naming one, or to a skill that points at one is checked by watching sessions use it. No tool can check it.
 
-- **Run fresh headless sessions on a weaker model, each in a throwaway clone of another repository, with a task that names no standard.** Then read each transcript for what it opened. The closing comments of [#2](https://github.com/NicoVIII/standards/issues/2), [#3](https://github.com/NicoVIII/standards/issues/3) and [#5](https://github.com/NicoVIII/standards/issues/5) have the commands and the results.
+- **Run fresh headless sessions on a weaker model, each in a throwaway clone of another repository, with a task that names no standard.** Then read each transcript for what it opened. The closing comment of [#8](https://github.com/NicoVIII/standards/issues/8) has the commands. Those of [#2](https://github.com/NicoVIII/standards/issues/2), [#3](https://github.com/NicoVIII/standards/issues/3) and [#5](https://github.com/NicoVIII/standards/issues/5) have more results.
 - **Run a baseline on the same task first.** One run proves little: a baseline once opened no standard at all.
 - **Sessions read standards with `cat`,** often as `cd …/standards && cat a.md b.md`, so a filter for full paths misses them.
 - **Headless mode denies most shell commands.** Judge what was read and drafted, not whether the task finished.
